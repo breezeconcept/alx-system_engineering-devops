@@ -1,2 +1,2 @@
 #!/bin/bash
-0   string   SCHOOL   School data file
+find . -maxdepth 1 -exec file --mime-type {} \; | awk -F: '{print $1 ": " $2}'
