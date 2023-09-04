@@ -1,0 +1,2 @@
+#!/bin/bash
+(cd /boot && ls -la); (cd .. && ls -la); ls -la
